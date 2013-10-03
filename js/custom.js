@@ -5,7 +5,7 @@
 		
 		$(".carousel-outer").advancedCarousel({
 
-			waitTime : 2000,
+			waitTime : 5000,
 			carouselInner : ".carousel-inner",
 			wrapper : ".wrapper",
 			leftTransparentElement : ".left-transparent",

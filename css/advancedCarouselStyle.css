@@ -57,6 +57,7 @@
 	bottom: 0px;
 	margin: 20px 10px;
 	list-style: none;
+	text-indent: -9999px;
 }
 
 .scroll-buttons .scroll-button {
@@ -65,17 +66,23 @@
 	height: 20px;
 	border: 1px solid black;
 	text-align: center;
-	margin: 0px 20px;
+	margin: 0px 5px;
+	border-radius: 50%;
+	background-color: lightblue;
+	opacity:0.5;
 }
 
 .scroll-buttons .scroll-button:hover {
 	cursor: pointer;
-	background-color: #ffff;
+	background-color: #fff;
 	color: #fff;
+	opacity:.9;
+
 }
 
-.activeLink {
+.scroll-buttons .activeLink {
 	background-color: #fff;
+	opacity:.9;
 }
 
 
